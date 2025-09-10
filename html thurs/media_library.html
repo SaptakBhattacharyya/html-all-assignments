@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Media Library</title>
+</head>
+<body>
+
+  <h1>Media Library Collection</h1>
+  <p>This page contains my favorite images, songs, videos, and online embeds.</p>
+
+  
+  <nav>
+    <a href="#images">Images</a> |
+    <a href="#audio">Audio</a> |
+    <a href="#video">Video</a> |
+    <a href="#embeds">Embeds</a>
+  </nav>
+
+  
+  <section id="images">
+    <h2>Image Gallery</h2>
+
+    <figure>
+      <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg" alt="Taj Mahal at sunrise" title="Taj Mahal">
+      <figcaption>Taj Mahal at sunrise.</figcaption>
+    </figure>
+
+    <figure>
+      <img width="200px" src="https://pixelz.cc/wp-content/uploads/2018/07/ama-dablam-mountain-himalaya-range-nepal-uhd-4k-wallpaper.jpg" alt="Himalayas mountain range" title="Himalayas">
+      <figcaption>Beautiful mountains.</figcaption>
+    </figure>
+
+    <figure>
+      <img width="200px"src="https://tse2.mm.bing.net/th/id/OIP.4TyFtOMxPN-ae6p7FnurVwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Niagara Falls" title="Niagara Falls">
+      <figcaption>Niagara Falls in full flow.</figcaption>
+    </figure>
+
+    <figure>
+      <img width="200px"src="https://tse4.mm.bing.net/th/id/OIP.5BjFoWhBxIhkvhUGAu0BPwHaLL?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Eiffel Tower" title="Eiffel Tower">
+      <figcaption>Iconic Eiffel Tower in Paris.</figcaption>
+    </figure>
+
+    <figure>
+      <img width="200px"src="https://tse2.mm.bing.net/th/id/OIP.4U-khdJ4dLgyRb0XGRiD7wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Grand Canyon" title="Grand Canyon">
+      <figcaption>Majestic Grand Canyon.</figcaption>
+    </figure>
+
+    <figure>
+      <img width="200px" src="https://th.bing.com/th/id/R.d4cee6463608f82e298ff000b37f818d?rik=nXl3ER1yG4u9oA&riu=http%3a%2f%2fwww.hdwallpaperspulse.com%2fwp-content%2fuploads%2f2015%2f09%2f15%2famazing-beach-sunset-landscape.jpg&ehk=UlZJghY5n%2fzN8mIDOqtSj4NSOJnRdJlM5nJlxJ4ch%2fE%3d&risl=&pid=ImgRaw&r=0" alt="Sunset at beach" title="Beach Sunset">
+      <figcaption>Peaceful sunset at the beach.</figcaption>
+    </figure>
+  </section>
+
+ 
+  <section id="audio">
+    <h2>Audio Collection</h2>
+
+    <p>Relaxing instrumental track:</p>
+    <audio controls autoplay>
+      <source src="./audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <p>Looped ambient nature sounds:</p>
+    <audio controls loop>
+      <source src="./audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <p>Favorite upbeat song:</p>
+    <audio controls>
+      <source src="./audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+ 
+  <section id="video">
+    <h2>Video Collection</h2>
+
+    <figure>
+      <video width="480" height="270" controls poster="images/coding-poster.jpg">
+        <source src="./video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>My coding session demo.</figcaption>
+    </figure>
+
+    <figure>
+      <video width="480" height="270" controls poster="images/explainer-poster.jpg">
+        <source src="./video.mp4" type="video/mp4">
+        <track src="./subtitles.vtt" kind="subtitles" srclang="en" label="English">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>Explainer with subtitles.</figcaption>
+    </figure>
+  </section>
+
+
+  <section id="embeds">
+    <h2>External Media Embeds</h2>
+
+    <h3>YouTube Video</h3>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/sPM2WiwA1us?si=pEmIl1pnCGCsqNG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h3>Google Map – CodingGita Campus</h3>
+    <iframe src="https://www.google.com/maps?q=Shree+Swaminarayan+Vishvamangal+Gurukul,+Ahmedabad-Mehsana+Highway,+Saij,+Kalol,+Gandhinagar,+Gujarat&output=embed" width="600" height="450" style="border:0;" allowfullscreen></iframe>
+
+    <h3>Wikipedia Article Snippet</h3>
+    <iframe src="https://simple.wikipedia.org/wiki/Wikipedia:Article_wizard/Example" width="600" height="400" title="Wikipedia Snippet"></iframe>
+  </section>
+
+  
+  <footer>
+    <p><a href="#top">Back to Top</a></p>
+  </footer>
+
+</body>
+</html>
